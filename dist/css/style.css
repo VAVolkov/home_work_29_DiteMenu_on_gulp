@@ -1,0 +1,1129 @@
+@font-face {
+  font-family: EduVICWANTBeginner;
+  font-display: swap;
+  src: url("../fonts/EduVICWANTBeginner-Regular.woff2") format("woff2"), url("../fonts/EduVICWANTBeginner-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: EduVICWANTBeginner;
+  font-display: swap;
+  src: url("../fonts/EduVICWANTBeginner-VariableFont_wght.woff2") format("woff2"), url("../fonts/EduVICWANTBeginner-VariableFont_wght.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: EduVICWANTBeginner;
+  font-display: swap;
+  src: url("../fonts/EduVICWANTBeginner-SemiBold.woff2") format("woff2"), url("../fonts/EduVICWANTBeginner-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: EduVICWANTBeginner;
+  font-display: swap;
+  src: url("../fonts/EduVICWANTBeginner-Bold.woff2") format("woff2"), url("../fonts/EduVICWANTBeginner-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: EduVICWANTBeginner;
+  font-display: swap;
+  src: url("../fonts/EduVICWANTBeginner-Medium.woff2") format("woff2"), url("../fonts/EduVICWANTBeginner-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: relative;
+}
+
+header {
+  background: url("../img/pic_01.jpg") 0 0 no-repeat;
+  width: 1440px;
+  height: 750px;
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  width: 1069px;
+  height: 187px;
+  top: 212px;
+  left: 185px;
+}
+
+h1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 90px;
+  text-align: center;
+  font-weight: 400;
+  font-family: YesevaOne;
+  font-style: Regular;
+  color: white;
+  line-height: 103.95px;
+}
+
+.uzor {
+  position: absolute;
+  width: 250px;
+  height: 46.16px;
+  left: 41.32%;
+  bottom: 32.83%;
+}
+
+.leftButton {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 218px;
+  height: 80px;
+  left: 485px;
+  top: 568px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+}
+
+.rightButton {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 218px;
+  height: 80px;
+  left: 737px;
+  top: 568px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+}
+
+h4 {
+  position: absolute;
+  width: 216px;
+  height: 16px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.btnLabel {
+  top: 25px;
+}
+
+.about {
+  width: 1440px;
+  height: 750px;
+  top: 750px;
+}
+
+.aboutBG {
+  width: 1440px;
+  height: 750px;
+  top: 750px;
+  background: url("../img/pic_03.jpg") 2% 0 no-repeat;
+  opacity: 2%;
+}
+
+h2 {
+  position: absolute;
+  top: 853px;
+  left: 185px;
+  width: 409px;
+  height: 35px;
+  font-family: YesevaOne;
+  font-style: Regular;
+  font-size: 36px;
+  line-height: 41.58px;
+  text-align: center;
+  color: #CC9900;
+}
+
+.uzorGold {
+  position: absolute;
+  width: 131.47px;
+  height: 23.73px;
+  top: 936.4px;
+  left: 323.27px;
+}
+
+.text {
+  position: absolute;
+  width: 471px;
+  height: 141px;
+  top: 976.2px;
+  left: 154px;
+}
+
+.text p {
+  text-align: center;
+  color: #4C4C4C;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.author {
+  position: absolute;
+  width: 289px;
+  height: 292px;
+  top: 1133.2px;
+  left: 295px;
+}
+
+.dishes__1 {
+  position: absolute;
+  width: 630px;
+  height: 551px;
+  top: 849px;
+  left: 735px;
+  object-fit: contain;
+}
+
+.ingredients {
+  width: 1440px;
+  height: 750px;
+  top: 1500px;
+  background: url("../img/pic_07.jpg") 0 0 no-repeat;
+}
+
+.blackSquare {
+  position: absolute;
+  width: 629px;
+  height: 550px;
+  top: 1600px;
+  left: 735px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.blackSquare > h2 {
+  margin: 0px;
+  width: 409px;
+  height: 35px;
+  position: absolute;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+  top: 49px;
+  left: 114px;
+}
+
+.blackSquare > .uzorWhite {
+  position: absolute;
+  width: 250.01px;
+  height: 23.73px;
+  top: 108.2px;
+  left: 193px;
+}
+
+.blackSquare > p {
+  position: absolute;
+  width: 470px;
+  height: 157px;
+  left: 80px;
+  top: 158px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.firstImgCircle, .secondImgCircle, .thirdImgCircle {
+  position: absolute;
+  width: 114.9px;
+  height: 114.9px;
+  border: 5px solid rgba(204, 153, 0, 0.5);
+  border-radius: 50%;
+  overflow: hidden;
+  top: 365px;
+}
+
+.firstImgCircle > img, .secondImgCircle > img, .thirdImgCircle > img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: -12px auto;
+}
+
+.firstImgCircle {
+  left: 114px;
+}
+
+.secondImgCircle {
+  left: 257px;
+}
+
+.thirdImgCircle {
+  left: 400px;
+}
+
+.menu {
+  position: relative;
+  width: 1440px;
+  height: 1125px;
+}
+
+.menuBG {
+  position: absolute;
+  width: 1440px;
+  height: 1125px;
+  background: url("../img/pic_12.png") 2% 0;
+  opacity: 10%;
+  top: 0px;
+}
+
+.menu > h2 {
+  position: absolute;
+  width: 409px;
+  height: 35px;
+  font-family: "Yeseva One";
+  font-size: 36px;
+  line-height: 41.58px;
+  text-align: center;
+  color: #CC9900;
+}
+
+.appetisers {
+  top: 100px;
+  left: 185px;
+}
+
+.salads {
+  top: 512px;
+  left: 186px;
+}
+
+.starters {
+  top: 100px;
+  left: 846px;
+}
+
+.mainDishes {
+  top: 443px;
+  left: 846px;
+}
+
+.menu > .uzorGold {
+  position: absolute;
+  width: 253.21px;
+  height: 23.73px;
+  left: 262.4px;
+}
+
+#appetUsorGold {
+  top: 159.2px;
+}
+
+#saladsUzorGold {
+  top: 571.2px;
+}
+
+#startersUzorGold {
+  left: 925px;
+  top: 159.2px;
+}
+
+#mainDishesUzorGold {
+  left: 925px;
+  top: 502.2px;
+}
+
+.namePosition {
+  width: 410px;
+  height: 24px;
+  font-family: "Yeseva One";
+  font-size: 21px;
+  line-height: 36.38px;
+  line-height: 150%;
+  text-align: left;
+  color: #C89F2D;
+  padding-bottom: 6.94px;
+  border-bottom: 1px solid #C89F2D;
+}
+
+.positionCost {
+  width: 64px;
+  height: 24px;
+  font-family: "Yeseva One";
+  font-size: 21px;
+  line-height: 36.38px;
+  line-height: 150%;
+  text-align: left;
+  color: #C89F2D;
+  padding-bottom: 6.94px;
+  border-bottom: 1px solid #C89F2D;
+}
+
+#namePosition__1, #namePosition__2, #namePosition__3 {
+  top: 217px;
+  left: 154px;
+}
+
+#positionCost__1, #positionCost__2, #positionCost__3 {
+  top: 217px;
+  left: 564px;
+}
+
+.positionLowerString {
+  position: absolute;
+  font-family: "Lato";
+  font-size: 16px;
+  line-height: 28.8px;
+  line-height: 150%;
+  text-align: left;
+  color: #4C4C4C;
+}
+
+#positionLowerString__1, #positionLowerString__2, #positionLowerString__3 {
+  top: 258px;
+  left: 154px;
+}
+
+#namePosition__2, #positionCost__2 {
+  top: 325px;
+}
+
+#positionLowerString__2 {
+  top: 366px;
+}
+
+#namePosition__3, #positionCost__3 {
+  top: 433px;
+}
+
+#positionLowerString__3 {
+  top: 474px;
+}
+
+#namePositionSalad__1 {
+  top: 629px;
+  left: 155px;
+}
+
+#positionCostSalad__1 {
+  top: 629px;
+  left: 564px;
+}
+
+#positionLowerStringSalad__1 {
+  top: 670px;
+  left: 155px;
+}
+
+#namePositionSalad__2 {
+  top: 737px;
+  left: 155px;
+}
+
+#positionCostSalad__2 {
+  top: 737px;
+  left: 564px;
+}
+
+#positionLowerStringSalad__2 {
+  top: 778px;
+  left: 155px;
+}
+
+#namePositionSalad__3 {
+  top: 845px;
+  left: 155px;
+}
+
+#positionCostSalad__3 {
+  top: 845px;
+  left: 564px;
+}
+
+#positionLowerStringSalad__3 {
+  top: 886px;
+  left: 155px;
+}
+
+#namePositionSalad__4 {
+  top: 953px;
+  left: 155px;
+}
+
+#positionCostSalad__4 {
+  top: 953px;
+  left: 564px;
+}
+
+#positionLowerStringSalad__4 {
+  top: 994px;
+  left: 155px;
+}
+
+#namePositionStarters__1 {
+  top: 217px;
+  left: 815px;
+}
+
+#positionCostStarters__1 {
+  top: 217px;
+  left: 1225px;
+}
+
+#positionLowerStringStarters__1 {
+  top: 258px;
+  left: 815px;
+}
+
+#namePositionStarters__2 {
+  top: 325px;
+  left: 815px;
+}
+
+#positionCostStarters__2 {
+  top: 325px;
+  left: 1225px;
+}
+
+#positionLowerStringStarters__2 {
+  top: 366px;
+  left: 815px;
+}
+
+#namePositionmainDishes__1 {
+  top: 560px;
+  left: 815px;
+}
+
+#positionCostmainDishes__1 {
+  top: 560px;
+  left: 1225px;
+}
+
+#positionLowerStringmainDishes__1 {
+  top: 601px;
+  left: 815px;
+}
+
+#namePositionmainDishes__2 {
+  top: 668px;
+  left: 815px;
+}
+
+#positionCostmainDishes__2 {
+  top: 668px;
+  left: 1225px;
+}
+
+#positionLowerStringmainDishes__2 {
+  top: 709px;
+  left: 815px;
+}
+
+#namePositionmainDishes__3 {
+  top: 776px;
+  left: 815px;
+}
+
+#positionCostmainDishes__3 {
+  top: 776px;
+  left: 1225px;
+}
+
+#positionLowerStringmainDishes__3 {
+  top: 817px;
+  left: 815px;
+}
+
+#namePositionmainDishes__4 {
+  top: 884px;
+  left: 815px;
+}
+
+#positionCostmainDishes__4 {
+  top: 884px;
+  left: 1225px;
+}
+
+#positionLowerStringmainDishes__4 {
+  top: 925px;
+  left: 815px;
+}
+
+#namePositionmainDishes__5 {
+  top: 992px;
+  left: 815px;
+}
+
+#positionCostmainDishes__5 {
+  top: 992px;
+  left: 1225px;
+}
+
+#positionLowerStringmainDishes__5 {
+  top: 1033px;
+  left: 815px;
+}
+
+.reviews {
+  position: relative;
+  width: 1440px;
+  height: 750px;
+}
+
+.reviewsBG {
+  position: absolute;
+  width: 1440px;
+  height: 750px;
+  background: no-repeat center/100% url("../img/pic_13.jpg");
+  top: 0px;
+  object-fit: cover;
+}
+
+#blackPlace {
+  position: absolute;
+  width: 850px;
+  height: 550px;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 100px;
+  left: 295px;
+}
+
+#guestReviews {
+  position: absolute;
+  width: 473px;
+  height: 53px;
+  font-family: "Yeseva One";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41.58px;
+  line-height: 100%;
+  color: #FFFFFF;
+  top: 63px;
+  left: 188px;
+}
+
+#reviewsMessage {
+  position: absolute;
+  width: 690px;
+  height: 297px;
+  top: 184px;
+  left: 80px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Gentium Book Basic";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 41.66px;
+}
+
+.reservation {
+  position: relative;
+  width: 1440px;
+  height: 750px;
+}
+
+.reservationBG {
+  position: absolute;
+  width: 1440px;
+  height: 750px;
+  background: url(../img/pic_14.jpg) 2% 0;
+  opacity: 10%;
+}
+
+.imageDishes {
+  width: 300px;
+  width: 550px;
+  overflow: hidden;
+}
+
+#image__1 {
+  position: absolute;
+  top: 100px;
+}
+
+#image__2 {
+  position: absolute;
+  top: 100px;
+  left: 330px;
+}
+
+#reservationAppet {
+  position: absolute;
+  width: 409px;
+  left: 35px;
+  top: 103px;
+  left: 846px;
+}
+
+#reservationUsorGold {
+  position: absolute;
+  width: 253.21px;
+  height: 23.73px;
+  left: 925px;
+  top: 162.2px;
+}
+
+#reservationMessage {
+  position: absolute;
+  width: 470px;
+  height: 236px;
+  top: 221px;
+  left: 815px;
+  font-family: "Lato";
+  font-size: 16px;
+  line-height: 28.8px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.label {
+  position: absolute;
+  width: 79px;
+  height: 15px;
+  font-family: "Lato";
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 25.2px;
+  line-height: 150%;
+  text-align: Left;
+  color: #C89F2D;
+}
+
+#labelName {
+  top: 449px;
+  left: 845px;
+}
+
+#labelEmail {
+  top: 449px;
+  left: 1065px;
+}
+
+#labelDate {
+  top: 523px;
+  left: 845px;
+}
+
+#labelPartyNumber {
+  top: 523px;
+  left: 1065px;
+  width: 110px;
+  height: 15px;
+}
+
+.inputPlace {
+  position: absolute;
+  width: 190px;
+  font-family: "Lato";
+  font-style: Italic;
+  font-size: 16px;
+  line-height: 28.8px;
+  line-height: 150%;
+  text-align: Left;
+  color: #9B9B9B;
+  background-color: #FFFFFF;
+  border: 1px solid #9B9B9B;
+  padding: 7px 0 7px 8px;
+}
+
+#inputName {
+  top: 466px;
+  left: 845px;
+}
+
+#inputEmail {
+  top: 466px;
+  left: 1065px;
+}
+
+#inputDate {
+  top: 540px;
+  left: 845px;
+}
+
+#inputPartyNumber {
+  top: 540px;
+  left: 1065px;
+}
+
+.btnBookNow {
+  position: absolute;
+  background-color: #C89F2D;
+  color: #FFFFFF;
+  font-family: "Lato";
+  font-size: 14px;
+  line-height: 25.2px;
+  line-height: 150%;
+  padding: 8px 62px 12px 62px;
+  top: 614px;
+  left: 955px;
+}
+
+.footer {
+  position: relative;
+  width: 1440px;
+  height: 375px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.headerName {
+  position: absolute;
+  width: 409px;
+  height: 35px;
+  font-family: "Yeseva One";
+  font-size: 21px;
+  line-height: 24.25px;
+  line-height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#headerNameIngredients {
+  top: 50px;
+  left: 75px;
+}
+
+#headerNameAppetisers {
+  top: 50px;
+  left: 518px;
+}
+
+#headerNameFineIngredients {
+  top: 50px;
+  left: 961px;
+}
+
+.uzorWhite {
+  position: absolute;
+  width: 250.01px;
+  height: 23.73px;
+}
+
+#footerUsor__1 {
+  left: 154px;
+  top: 109px;
+}
+
+#footerUsor__2 {
+  left: 597px;
+  top: 109px;
+}
+
+#footerUsor__3 {
+  left: 1040px;
+  top: 109px;
+}
+
+.footerText {
+  position: absolute;
+  font-family: "Lato";
+  font-size: 16px;
+  line-height: 28.8px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#footerText__1 {
+  width: 410px;
+  height: 134px;
+  left: 75px;
+  top: 191px;
+}
+
+#footerText__2 {
+  width: 246px;
+  height: 88px;
+  left: 590px;
+  top: 170px;
+}
+
+#footerText__3 {
+  width: 246px;
+  height: 88px;
+  left: 1035px;
+  top: 163px;
+}
+
+.footerIcons {
+  position: absolute;
+  width: 43.72px;
+  height: 28.33px;
+  border-radius: 1px;
+}
+
+#footerIcon__1 {
+  top: 267.69px;
+  left: 625px;
+}
+
+#footerIcon__2 {
+  top: 267.69px;
+  left: 673.76px;
+}
+
+#footerIcon__3 {
+  top: 267.69px;
+  left: 722.52px;
+}
+
+#footerIcon__4 {
+  top: 267.69px;
+  left: 771.28px;
+}
+
+@media (max-width: 768px) {
+  header {
+    background: url("../img/pic_01.jpg") 0 0 no-repeat;
+    width: 768px;
+    height: 1024px;
+    position: relative;
+  }
+  .name {
+    position: absolute;
+    width: 708px;
+    height: 317px;
+    top: 264px;
+    left: 30px;
+  }
+  h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 90px;
+    text-align: center;
+    font-weight: 400;
+    font-family: YesevaOne;
+    font-style: Regular;
+    color: white;
+    line-height: 103.95px;
+  }
+  .uzor {
+    position: absolute;
+    width: 334.95px;
+    height: 61.84px;
+    left: 216.52px;
+    top: 600.16px;
+  }
+  .leftButton {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 334px;
+    height: 80px;
+    left: 217px;
+    top: 727px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+  }
+  .rightButton {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 334px;
+    height: 80px;
+    left: 217px;
+    top: 844px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+  }
+  h4 {
+    position: absolute;
+    width: 216px;
+    height: 16px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .btnLabel {
+    top: 25px;
+    left: 50px;
+  }
+  .about {
+    position: relative;
+    width: 768px;
+    height: 864px;
+    top: 0px;
+  }
+  .aboutBG {
+    position: absolute;
+    width: 768px;
+    height: 864px;
+    background: url("../img/pic_03.jpg") 2% 0 no-repeat;
+    opacity: 2%;
+    top: 0px;
+  }
+  h2 {
+    position: absolute;
+    top: 100px;
+    left: 185px;
+    width: 409px;
+    height: 35px;
+    font-family: YesevaOne;
+    font-style: Regular;
+    font-size: 36px;
+    line-height: 41.58px;
+    text-align: center;
+    color: #CC9900;
+  }
+  .uzorGold {
+    position: absolute;
+    width: 251.47px;
+    height: 23.73px;
+    top: 159.2px;
+    left: 264px;
+  }
+  .text {
+    position: absolute;
+    width: 399px;
+    height: 141px;
+    top: 257px;
+    left: 185px;
+  }
+  .text p {
+    text-align: center;
+    color: #4C4C4C;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+  }
+  .author {
+    position: absolute;
+    width: 289px;
+    height: 292px;
+    top: 472px;
+    left: 294px;
+  }
+  .dishes__1 {
+    display: none;
+    position: absolute;
+    width: 630px;
+    height: 551px;
+    top: 849px;
+    left: 735px;
+    object-fit: contain;
+  }
+  .ingredients {
+    position: relative;
+    width: 768px;
+    height: 753px;
+    background: url("../img/pic_07.jpg") 0 0 no-repeat;
+    top: 0px;
+  }
+  .blackSquare {
+    position: absolute;
+    width: 708px;
+    height: 550px;
+    top: 100px;
+    left: 30px;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .blackSquare > h2 {
+    position: absolute;
+    width: 399px;
+    height: 35.03px;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 49px;
+    left: 155px;
+  }
+  .blackSquare > .uzorWhite {
+    position: absolute;
+    width: 250.01px;
+    height: 23.73px;
+    top: 108.25px;
+    left: 232.07px;
+  }
+  .blackSquare > p {
+    position: absolute;
+    width: 529px;
+    height: 108px;
+    left: 90px;
+    top: 173px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .firstImgCircle, .secondImgCircle, .thirdImgCircle {
+    position: absolute;
+    width: 114.9px;
+    height: 114.9px;
+    border: 5px solid rgba(204, 153, 0, 0.5);
+    border-radius: 50%;
+    overflow: hidden;
+    top: 385px;
+  }
+  .firstImgCircle > img, .secondImgCircle > img, .thirdImgCircle > img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: -12px auto;
+  }
+  .firstImgCircle {
+    left: 155px;
+  }
+  .secondImgCircle {
+    left: 298px;
+  }
+  .thirdImgCircle {
+    left: 441px;
+  }
+  .menu {
+    display: none;
+    position: relative;
+    width: 1440px;
+    height: 1125px;
+  }
+  .reviews {
+    display: none;
+    position: relative;
+    width: 1440px;
+    height: 750px;
+  }
+  .reservation {
+    display: none;
+    position: relative;
+    width: 1440px;
+    height: 750px;
+  }
+  .footer {
+    display: none;
+    position: relative;
+    width: 1440px;
+    height: 375px;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+}
